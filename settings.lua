@@ -1,3 +1,13 @@
+data:extend{
+    {
+        type = "bool-setting",
+        name = "picker-enable-sign-entities",
+        setting_type = "startup",
+        default_value = true,
+        order = "[sticky-notes]-a"
+    }
+}
+
 data:extend {
     {
         type = 'string-setting',

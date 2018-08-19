@@ -4,7 +4,7 @@
 local Event = require('__stdlib__/event/event')
 local Gui = require('__stdlib__/event/gui')
 local Player = require('__stdlib__/event/player')
-local interface = require('interface')
+local interface = require('__PickerExtended__/interface')
 
 local text_color_default = {r = 1, g = 1, b = 0}
 local color_array = {}
@@ -843,7 +843,6 @@ end
 
 --(( Add to picker and StickyNotes interface ))--
 remote.add_interface(script.mod_name, interface)
-
 if not remote.interfaces['StickyNotes'] then
     remote.add_interface('StickyNotes', interface)
 end --))

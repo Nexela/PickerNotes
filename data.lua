@@ -1,8 +1,6 @@
 -------------------------------------------------------------------------------
 --[StickyNotes]--
 -------------------------------------------------------------------------------
-require('__stdlib__/core')
-
 local Data = require('__stdlib__/data/data')
 local Item = require('__stdlib__/data/item')
 local Entity = require('__stdlib__/data/entity')
@@ -209,7 +207,7 @@ end
 Data {
     type = "technology",
     name = "sticky-notes",
-    icon = "__PickerTweaks__/graphics/sticky-notes.png",
+    icon = "__PickerNotes__/graphics/sticky-notes.png",
     icon_size = 128,
     effects = {
         {
@@ -246,7 +244,7 @@ Data {
 Data {
     type = "item",
     name = "sticky-note",
-    icon = "__PickerTweaks__/graphics/sticky-note.png",
+    icon = "__PickerNotes__/graphics/sticky-note.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "terrain",
@@ -256,10 +254,10 @@ Data {
 }
 
 Data("wooden-chest", "container"):copy("sticky-note"):set_fields {
-    icon = "__PickerTweaks__/graphics/sticky-note.png",
+    icon = "__PickerNotes__/graphics/sticky-note.png",
     icon_size = 32,
     picture = {
-        filename = "__PickerTweaks__/graphics/sticky-note.png",
+        filename = "__PickerNotes__/graphics/sticky-note.png",
         priority = "extra-high",
         width = 32,
         height = 32,
@@ -285,7 +283,7 @@ Data {
 Data {
     type = "item",
     name = "sticky-sign",
-    icon = "__PickerTweaks__/graphics/sign-icon.png",
+    icon = "__PickerNotes__/graphics/sign-icon.png",
     flags = {"goes-to-quickbar"},
     subgroup = "terrain",
     order = "y",
@@ -294,10 +292,10 @@ Data {
 }
 
 Data("wooden-chest", "container"):copy("sticky-sign"):set_fields {
-    icon = "__PickerTweaks__/graphics/sign-icon.png",
+    icon = "__PickerNotes__/graphics/sign-icon.png",
     icon_size = 32,
     picture = {
-        filename = "__PickerTweaks__/graphics/sign.png",
+        filename = "__PickerNotes__/graphics/sign.png",
         priority = "extra-high",
         width = 64,
         height = 64,
