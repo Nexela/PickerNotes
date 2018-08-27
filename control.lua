@@ -1,9 +1,9 @@
 -------------------------------------------------------------------------------
 --[StickyNotes]--
 -------------------------------------------------------------------------------
-local Event = require('__stdlib__/event/event')
-local Gui = require('__stdlib__/event/gui')
-local Player = require('__stdlib__/event/player')
+local Event = require('__stdlib__/stdlib/event/event')
+local Gui = require('__stdlib__/stdlib/event/gui')
+local Player = require('__stdlib__/stdlib/event/player')
 local interface = require('__PickerExtended__/interface')
 
 local text_color_default = {r = 1, g = 1, b = 0}

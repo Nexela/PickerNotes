@@ -1,9 +1,9 @@
 -------------------------------------------------------------------------------
 --[StickyNotes]--
 -------------------------------------------------------------------------------
-local Data = require('__stdlib__/data/data')
-local Item = require('__stdlib__/data/item')
-local Entity = require('__stdlib__/data/entity')
+local Data = require('__stdlib__/stdlib/data/data')
+local Item = require('__stdlib__/stdlib/data/item')
+local Entity = require('__stdlib__/stdlib/data/entity')
 
 local style = data.raw['gui-style'].default
 
