@@ -4,7 +4,7 @@
 local Event = require('__stdlib__/stdlib/event/event')
 local Gui = require('__stdlib__/stdlib/event/gui')
 local Player = require('__stdlib__/stdlib/event/player')
-local interface = require('__PickerExtended__/interface')
+local interface = require('__stdlib__/stdlib/scripts/interface')
 
 local text_color_default = {r = 1, g = 1, b = 0}
 local color_array = {}
