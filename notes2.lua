@@ -3,6 +3,7 @@ local Note = {}
 
 local Event = require("stdlib/event/event")
 local Player = require("stdlib/event/player")
+local table = require('__stdlib__/stdlib/utils/table')
 
 local text_color_default = {r = 1, g = 1, b = 0}
 
