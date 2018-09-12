@@ -284,6 +284,7 @@ Data {
     type = "item",
     name = "sticky-sign",
     icon = "__PickerNotes__/graphics/sign-icon.png",
+    icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "terrain",
     order = "y",
